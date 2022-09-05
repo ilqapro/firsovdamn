@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Firsov - веб-разработка на WORDPRESS, WOOCOMMERCE, PHP, JAVASCRIPT, HTML, CSS из Кирова</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="icon" href="favicon.png">
+
+  <link rel="stylesheet" href="./assets/css/normalize.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body class="loading">
+
+  <!-- blur -->
+  <svg class="hidden" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="5"></feGaussianBlur>
+    </filter>
+  </svg>
+  <!-- blur /-->
+
+  <!-- preloader -->
+  <div id="preloader">
+    <video src="./assets/video/logo.mp4" autoplay muted loop></video>
+  </div>
+  <!-- preloader /-->
+
+  <!-- reasons btn -->
+  <button id="btn_reasons" class="btn-border-bg" data-popup_open="reasons">
+    Топ 5 минусов при работе со мной
+  </button>
+  <!-- reasons btn /-->
+
+  <!-- navigation -->
+  <nav id="nav"><ul></ul></nav>
+  <!-- navigation /-->
+
+  <!-- gift -->
+  <button id="gift" type="button" title="Забрать подарочек">
+    <img src="./assets/svg/gift.svg" alt="">
+  </button>
+  <!-- gift /-->
+  
+  <!-- header -->
+  <header id="header">
+    <div class="container">
+      <div class="inner">
+        <a href="#" class="logo">
+          <img src="./assets/svg/logo.svg" alt="">
+        </a>
+        <button class="btn-small" type="button" data-popup_open="recall">
+          Перезвонить!
+        </button>
+      </div>
+    </div>
+  </header>
+  <!-- header /-->
+  
+  <!-- hero -->
+  <section id="hero" data-nav_item="Я / I am">
+    <div class="container">
+      <div class="hero__wrap">
+        <div class="hero__content">
+          <video id="face__video" src="./assets/video/face.mp4" autoplay muted loop></video>
+          <h1>
+            Илья
+            <br>Фирсов!
+          </h1>
+          <p class="hero__text">
+            <span class="wordpress">wordpress</span>, <span class="woocommerce">woocommerce</span>, <span class="php">PHP</span>, <span class="js">JS</span>, <span class="html">HTML</span>, <span class="css">CSS</span>
+            <br><span class="text-bg">веб-разработчик + фрилансер</span>
+          </p>
+          <button class="btn-big" type="button" data-popup_open="form">
+            Доверить проект!
+          </button>
+          <div class="socials">
+            <a class="socials-item" href="https://t.me/firsovdamn">
+              <img src="./assets/svg/telegram.svg" alt="">
+            </a>
+            <a class="socials-item" href="viber://chat?number=%2B79123360289">
+              <img src="./assets/svg/viber.svg" alt="">
+            </a>
+            <a class="socials-item" href="https://wa.me/79123360289">
+              <img src="./assets/svg/whatsapp.svg" alt="">
+            </a>
+            <a class="socials-item" href="mailto:ilcik.pochashev@gmail.com">
+              <img src="./assets/svg/gmail.svg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="hero__img">
+          <img class="svg" src="./assets/svg/look_at_this.svg" alt="">
+          <img class="me" src="./assets/img/me.png" alt="">
+          <button class="btn-circle" type="button" data-popup_open="story">
+            &#9733;
+          </button>
+          <div class="emoji">
+            <span class="emoji_01"><img src="./assets/img/emoji_01.png" alt=""></span>
+            <span class="emoji_02"><img src="./assets/img/emoji_02.png" alt=""></span>
+            <span class="emoji_03"><img src="./assets/img/emoji_03.png" alt=""></span>
+            <span class="emoji_04"><img src="./assets/img/emoji_04.png" alt=""></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- hero /-->
+
+  <!-- brain -->
+  <section id="brain" data-nav_item="Навыки">
+    <div class="container">
+      <div class="brain__wrap">
+        <div class="brain__video">
+          <video src="./assets/video/brain.mp4" autoplay muted loop></video>
+          <div class="brain__popup">
+            <div class="brain__popup-content">
+              <p class="text">
+                213123v123v123v12v
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="brain__content">
+          <h2 class="title">
+            Мой мозг
+            <video id="pink_cube_video" src="./assets/video/lighting.mp4" autoplay muted loop></video>
+          </h2>
+          <p class="subtitle dimly-text">
+            Что может запрограммировать эта штука, которую чаще всего называют мозгом?
+          </p>
+          <div class="brain__skills box">
+            <button class="brain__skills-item" type="button" data-popup_text="Wordpress это CMS система для управления содержимым сайта, гигант в веб-разработке. При помощи этого инструмента быстро реализуются абсолютно любые идеи по созданию удобной админки. Так что было решено обучить свой мозг знаниям по wordpress/woocommerce, где уже вышибаю дверь в Senior уровнь!">
+              Wordpress/woocommerce
+            </button>
+            <button class="brain__skills-item" type="button" data-popup_text="Разработка на PHP открывает широкий доступ к реализации различных задач: определение города по IP, вставки данных в документы, телеграм боты, API интеграции и др.">
+              PHP разработка
+            </button>
+            <button class="brain__skills-item" type="button" data-popup_text="Слишком много вопросов и мало ответов? Нужно что-то проверить? Рассеиваю туман за продуктивные 20 минут по созвону/переписке! (Бывшие не звоните умоляю)">
+              Консультация
+            </button>
+            <button class="brain__skills-item" type="button" data-popup_text="Приобретены и упорядочены навыки построения функционала для взаимодествия с посетителем сайта. Мегаэффективный интерактив: квиз, кнопка обратного звонка, всплывающая лид-форма и др.">
+              Javascript разработка
+            </button>
+            <button class="brain__skills-item" type="button" data-popup_text="На chill'е под музыку Gunna и с кайфом конвертирую великолепные дизайн-макеты сайтов в кроссбраузерный и адаптивный код для его дальнейшнего использования в различных целях.">
+              Верстка html/css
+            </button>
+            <button class="brain__skills-item" type="button" data-popup_text="Создание различных сложных и нестандартных элементов для взаимодействия с пользователем захватывает внимание на 100%! До уровня activetheory.net уже не так далеко :D">
+              Продвинутый интерактив
+            </button>
+            <button class="brain__skills-item" type="button" data-popup_text="Многие сайты не используют такой простой прием улучшения сайта как добавление самых простых анимаций элементов при прокрутке страницы, что само по себе повышает престиж продукта. Престиж = доверие!">
+              Оживление сайта
+            </button>
+            <button class="brain__skills-item" type="button" data-popup_text="Припаять провода или заменить лампочку? АХАХАХ... Естественно есть то, что я тут не упомянул. Вследствие чего, рассказав о своей задаче, вероятно я соглашусь ее решить :D (Взломами и т.п. не занимаюсь!)">
+              Что-то другое
+            </button>
+          </div>
+          <button class="btn-big" type="button" data-popup_open="recall">
+            Использовать!
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- brain /-->
+
+  <!-- works -->
+  <section id="works" data-nav_item="Проекты">
+    <div class="container">
+      <span class="circle_shadow" id="works__circle"></span>
+      <div class="works__wrap">
+        <div class="works__hat">
+          <h2 class="title">
+            <span class="subtitle">Выполненные</span>
+            Проекты
+            <video id="crystal_video" src="./assets/video/diamond_circle.mp4" autoplay muted loop></video>
+          </h2>
+          <button class="select s-default" type="button">
+            <span class="choised">
+              <span class="choised-content"></span>
+              <span class="choised-arrow"><img src="./assets/svg/arrow_mini.svg" alt=""></span>
+            </span>
+            <span class="list">
+              <span class="item" data-item="По свежести">
+                По свежести
+              </span>
+              <span class="item" data-item="По гордости">
+                По гордости
+              </span>
+              <span class="item" data-item="По масштабности">
+                По масштабности
+              </span>
+            </span>
+          </button>
+        </div>
+        <div class="works__content">
+          <div class="works__side box">
+            <button class="works__side-item" type="button">
+              Все
+            </button>
+            <button class="works__side-item" type="button">
+              Wordpress
+            </button>
+            <button class="works__side-item" type="button">
+              Консультация
+            </button>
+            <button class="works__side-item" type="button">
+              Javascript разработка
+            </button>
+            <button class="works__side-item" type="button">
+              Верстка html/css
+            </button>
+            <button class="works__side-item" type="button">
+              Продвинутый интерактив
+            </button>
+            <button class="works__side-item" type="button">
+              Оживление сайта
+            </button>
+            <button class="works__side-item" type="button">
+              Тоже горжусь
+            </button>
+          </div>
+          <div class="works__inner">
+            <div class="works__inner-nav">
+              <div class="works__inner-total_num">
+                <span class="current">
+                  1
+                </span>
+                <span class="small">
+                  /
+                  <span class="total">3</span>
+                </span>
+              </div>
+              <div class="works__inner-arrows">
+                <button class="left" type="button">
+                  <img src="./assets/svg/arrow.svg" alt="">
+                </button>
+                <button class="right" type="button">
+                  <img src="./assets/svg/arrow.svg" alt="">
+                </button>
+              </div>
+            </div>
+            <div class="works__inner-items">
+              <div class="works__item">
+                <div class="inner box">
+                  <div class="img">
+                    <img src="./assets/img/work.png" alt="">
+                  </div>
+                  <p class="text">
+                    Создание плагина для
+                    функционала...
+                  </p>
+                </div>
+              </div>
+              <div class="works__item">
+                <div class="inner box">
+                  <div class="img">
+                    <img src="./assets/img/work.png" alt="">
+                  </div>
+                  <p class="text">
+                    Создание плагина для
+                    функционала...
+                  </p>
+                </div>
+              </div>
+              <div class="works__item">
+                <div class="inner box">
+                  <div class="img">
+                    <img src="./assets/img/work.png" alt="">
+                  </div>
+                  <p class="text">
+                    Создание плагина для
+                    функционала...
+                  </p>
+                </div>
+              </div>
+              <div class="works__item">
+                <div class="inner box">
+                  <div class="img">
+                    <img src="./assets/img/work.png" alt="">
+                  </div>
+                  <p class="text">
+                    Создание плагина для
+                    функционала...
+                  </p>
+                </div>
+              </div>
+              <div class="works__item">
+                <div class="inner box">
+                  <div class="img">
+                    <img src="./assets/img/work.png" alt="">
+                  </div>
+                  <p class="text">
+                    Создание плагина для
+                    функционала...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- works /-->
+
+  <!-- offer -->
+  <section id="offer" data-nav_item="Заказать">
+    <div class="container">
+      <div class="offer__wrap">
+        <div class="offer__text">
+          <h2 class="title">
+            Свяжитесь
+            <br>со мной! <video src="./assets/video/pink_heart.mp4" autoplay muted loop></video>
+          </h2>
+          <p class="text">
+            Отправив мне ТЗ удобным способом,
+            <br>вы получите его оценку в течение 2-х дней;
+            <br>либо могу помочь с написанием ТЗ
+          </p>
+          <em class="citation">
+            "Я позабочусь о гладкой реализации проекта!"
+          </em>
+          <button class="btn-small" type="button" data-popup_open="form">
+            Сотрудничать!
+          </button>
+        </div>
+        <div class="offer__image">
+          <span class="circle_shadow" id="offer__circle"></span>
+          <img src="./assets/img/rick.png" alt="">
+          <div class="socials">
+            <a class="socials-item" href="https://t.me/firsovdamn">
+              <img src="./assets/svg/telegram.svg" alt="">
+            </a>
+            <a class="socials-item" href="viber://add?number=%2B9123360289">
+              <img src="./assets/svg/viber.svg" alt="">
+            </a>
+            <a class="socials-item" href="https://wa.me/79123360289">
+              <img src="./assets/svg/whatsapp.svg" alt="">
+            </a>
+            <a class="socials-item" href="mailto:ilcik.pochashev@gmail.com">
+              <img src="./assets/svg/gmail.svg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- offer /-->
+
+  <!-- dream -->
+  <section id="dream" data-nav_item="Моя мечта">
+    <div class="container">
+      <div class="dream__wrap">
+        <div class="dream__photos">
+          <img src="./assets/img/dream.png" alt="">
+          <span class="circle_shadow" id="dream__circle"></span>
+        </div>
+        <div class="dream__text">
+          <div class="dream__hat">
+            <h2 class="title">
+              <span>моя</span>
+              Мечта
+            </h2>
+            <p class="subtitle text-bg">
+              знакомьтесь со мной еще ближе!
+            </p>
+          </div>
+          <p class="text">
+            Я более всего вовлечен в духовный аспект жизни и в понимание как устроена жизнь, улучшение своей "машины", приобретая все больший контроль. В каждую секунду наслаждаюсь "уничтоженной личностью", легкостью в своей "системе" и контрастным "как в детстве" миром при помощи <a href="https://youtu.be/1VKDQraF82Y">"Иша крийя" медитации</a>. Одно я знаю точно: я умру йогом.
+            <em>Из наиболее интересного еще добавлю, что познаю и испытываю мощный род "опъянения" из йоги без каких-либо веществ/напитков и без вреда здоровью.</em>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- dream /-->
+
+  <!-- contact -->
+  <section id="contact" data-nav_item="Контакты">
+    <div class="container">
+      <div class="contact__wrap">
+        <div class="contact__side">
+          <h2 class="title">
+            Контакты <video src="./assets/video/diamond_heart.mp4" autoplay loop muted></video>
+          </h2>
+          <p class="subtitle">
+            Вы можете связаться со мной через самую
+            <br>удобную форму в мире ._.
+          </p>
+          <div class="contact__city">
+            <img src="./assets/svg/geo.svg" alt="">
+            Россия, <span>Киров</span>
+          </div>
+          <div class="socials">
+            <a class="socials-item" href="https://t.me/firsovdamn">
+              <img src="./assets/svg/telegram.svg" alt="">
+            </a>
+            <a class="socials-item" href="viber://add?number=%2B9123360289">
+              <img src="./assets/svg/viber.svg" alt="">
+            </a>
+            <a class="socials-item" href="https://wa.me/79123360289">
+              <img src="./assets/svg/whatsapp.svg" alt="">
+            </a>
+            <a class="socials-item" href="mailto:ilcik.pochashev@gmail.com">
+              <img src="./assets/svg/gmail.svg" alt="">
+            </a>
+          </div>
+        </div>
+        <form class="contact__form" method="post" action="#">
+          <span class="circle_shadow" id="contact__circle"></span>
+          <div class="top">
+            <div class="fields">
+              <label class="label_name">
+                <video src="./assets/video/red_heart.mp4" autoplay muted loop></video>
+                <input type="text" placeholder="Ваше имя*" class="input-style" required>
+              </label>
+              <label class="label_messenger">
+                Выберите мессенджер*:
+                <button class="select s-input" data-select_input_result="#contact-select-messenger-result" type="button">
+                  <span class="choised">
+                    <span class="choised-content"></span>
+                    <span class="choised-arrow"><img src="./assets/svg/arrow_mini.svg" alt=""></span>
+                  </span>
+                  <span class="list">
+                    <span class="item" data-item="Логин от Телеграм*">
+                      <img src="./assets/svg/telegram.svg" alt="">Телеграм
+                    </span>
+                    <span class="item" data-item="Телефон WhatsApp*">
+                      <img src="./assets/svg/whatsapp.svg" alt="">WhatsApp
+                    </span>
+                    <span class="item" data-item="Телефон Viber*">
+                      <img src="./assets/svg/viber.svg" alt="">Viber
+                    </span>
+                  </span>
+                </button>
+                <input type="hidden" name="messenger" value="">
+              </label>
+            </div>
+            <div class="video">
+              <video src="./assets/video/typing.mp4" autoplay muted loop></video>
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="fields">
+              <input class="input-style" id="contact-select-messenger-result" type="text" name="messenger_data" placeholder="..." required>
+              <input class="input-style" type="text" name="budget" placeholder="Бюджет проекта">
+            </div>
+            <div class="fields">
+              <textarea class="input-style" name="message" placeholder="Сообщение"></textarea>
+            </div>
+          </div>
+          <button class="btn-big">
+            Ура ^^
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- contact /-->
+
+  <!-- footer -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer_wrap">
+        <p class="text">
+          <a href="#" data-popup_open="conditions">Условия и оплата</a>
+          <span>© 2022 Firsov</span>
+        </p>
+        <div class="payment">
+          <div class="payment-item"><img src="./assets/img/юmoney.png" alt=""></div>
+          <div class="payment-item"><img src="./assets/img/mastercard.png" alt=""></div>
+          <div class="payment-item"><img src="./assets/img/fl.png" alt=""></div>
+          <div class="payment-item"><img src="./assets/img/usdt.png" alt=""></div>
+          <div class="payment-item"><img src="./assets/img/btc.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer /-->
+
+  <!-- popup:conditions -->
+  <div class="popup" id="conditions">
+    <div class="popup__bg close"></div>
+    <div class="popup__wrap">
+      <div class="popup__inner">
+        <div class="popup__hat">
+          <p class="popup__title">
+            Условия и оплата (ред. 25.08.2022)
+          </p>
+          <button class="popup__close close" type="button"><img src="./assets/svg/close.svg" alt=""></button>
+        </div>
+        <div class="popup__content">
+          <p class="popup__content-title">Условия: </p>
+          <ol>
+            <li>
+              1. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, nisi explicabo vitae earum aut non quod praesentium reiciendis eos similique laborum a. Voluptas cumque, atque exercitationem perferendis cupiditate necessitatibus voluptatibus laudantium quisquam soluta accusamus blanditiis consequuntur aperiam veritatis omnis explicabo! Enim porro laborum quidem, repudiandae omnis earum inventore magnam officia itaque dolor iste veritatis nulla saepe odio debitis ex asperiores architecto tempore delectus facilis vitae at! Qui ipsa illum obcaecati cum blanditiis repellat enim nesciunt iusto nihil sit, fuga, corrupti consequuntur minima laborum! Fugit reprehenderit illo pariatur nihil corporis perspiciatis? Blanditiis quod perspiciatis dolore, enim iure hic quisquam necessitatibus. Animi?
+            </li>
+            <li>
+              2. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </li>
+            <li>
+              3. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, nisi explicabo vitae earum aut non quod praesentium reiciendis eos similique laborum a. Voluptas cumque, atque exercitationem perferendis cupiditate necessitatibus voluptatibus laudantium quisquam soluta accusamus blanditiis consequuntur aperiam veritatis omnis explicabo! Enim porro laborum quidem, repudiandae omnis earum inventore.
+            </li>
+            <li>
+              4. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, nisi explicabo vitae earum aut non quod praesentium reiciendis eos similique laborum a. Voluptas cumque, atque exercitationem perferendis cupiditate necessitatibus voluptatibus laudantium quisquam soluta accusamus blanditiis consequuntur aperiam veritatis omnis explicabo! Enim porro laborum quidem, repudiandae omnis earum inventore magnam officia itaque dolor iste veritatis nulla saepe odio debitis ex asperiores architecto tempore delectus facilis vitae at! Qui ipsa illum obcaecati cum blanditiis repellat enim nesciunt iusto nihil sit, fuga, corrupti consequuntur minima laborum! Fugit reprehenderit illo pariatur nihil corporis perspiciatis? Blanditiis quod perspiciatis dolore, enim iure hic quisquam necessitatibus. Animi?
+            </li>
+            <li>
+              5. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, nisi explicabo vitae earum aut non quod praesentium reiciendis eos similique laborum a. Voluptas cumque, atque exercitationem perferendis cupiditate necessitatibus voluptatibus laudantium quisquam soluta accusamus blanditiis consequuntur aperiam veritatis omnis explicabo! Enim porro laborum quidem, repudiandae omnis earum inventore magnam officia itaque dolor iste veritatis nulla saepe odio debitis ex asperiores architecto tempore delectus facilis vitae at! Qui ipsa illum obcaecati cum blanditiis repellat enim nesciunt iusto nihil sit, fuga, corrupti consequuntur minima laborum! Fugit reprehenderit illo pariatur nihil corporis perspiciatis? Blanditiis quod perspiciatis dolore, enim iure hic quisquam necessitatibus. Animi?
+            </li>
+            <li>
+              6. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, nisi explicabo vitae earum aut non quod praesentium reiciendis eos similique laborum a. Voluptas cumque, atque exercitationem perferendis cupiditate necessitatibus voluptatibus laudantium quisquam soluta accusamus blanditiis consequuntur aperiam veritatis omnis explicabo! Enim porro laborum quidem, repudiandae omnis earum inventore magnam officia itaque dolor iste veritatis nulla saepe odio debitis ex asperiores architecto tempore delectus facilis vitae at! Qui ipsa illum obcaecati cum blanditiis repellat enim nesciunt iusto nihil sit, fuga, corrupti consequuntur minima laborum! Fugit reprehenderit illo pariatur nihil corporis perspiciatis? Blanditiis quod perspiciatis dolore, enim iure hic quisquam necessitatibus. Animi?
+            </li>
+          </ol>
+          <p class="popup__content-title">Оплата: </p>
+          <ol>
+            <li>
+              1. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, nisi explicabo vitae earum aut non quod praesentium reiciendis eos similique laborum a. Voluptas cumque, atque exercitationem perferendis cupiditate necessitatibus voluptatibus laudantium quisquam soluta accusamus blanditiis consequuntur aperiam veritatis omnis explicabo! Enim porro laborum quidem, repudiandae omnis earum inventore magnam officia itaque dolor iste veritatis nulla saepe odio debitis ex asperiores architecto tempore delectus facilis vitae at! Qui ipsa illum obcaecati cum blanditiis repellat enim nesciunt iusto nihil sit, fuga, corrupti consequuntur minima laborum! Fugit reprehenderit illo pariatur nihil corporis perspiciatis? Blanditiis quod perspiciatis dolore, enim iure hic quisquam necessitatibus. Animi?
+            </li>
+            <li>
+              2. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </li>
+            <li>
+              3. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, nisi explicabo vitae earum aut non quod praesentium reiciendis eos similique laborum a. Voluptas cumque, atque exercitationem perferendis cupiditate necessitatibus voluptatibus laudantium quisquam soluta accusamus blanditiis consequuntur aperiam veritatis omnis explicabo! Enim porro laborum quidem, repudiandae omnis earum inventore.
+            </li>
+            <li>
+              4. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, nisi explicabo vitae earum aut non quod praesentium reiciendis eos similique laborum a.
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- popup:conditions /-->
+
+  <!-- popup:story -->
+  <div class="popup" id="story">
+    <div class="popup__bg close"></div>
+    <div class="popup__wrap">
+      <div class="popup__inner">
+        <div class="popup__hat">
+          <p class="popup__title">
+            История на 1 минуту
+          </p>
+          <button class="popup__close close" type="button"><img src="./assets/svg/close.svg" alt=""></button>
+        </div>
+        <div class="popup__content">
+          <div class="story__item">
+            <p class="year">
+              2019
+            </p>
+            <div class="content">
+              <p class="story__item-title">
+                <span class="workzilla">W</span>orkzilla
+              </p>
+              <div class="text">
+                На 2019 год биржа с довольно дешевыми проектами по веб-программированию. Посоветовал знакомый + привлекла возможностью быстро пробиться “нулям” без особых знаний, но меня интересовали тогда эмоции от заработка первых денег в интернете и опыт. В первый же день взял первый в жизни проект на 200 руб :D
+              </div>
+            </div>
+          </div>
+          <div class="story__item">
+            <p class="year">
+              2020
+            </p>
+            <div class="content">
+              <p class="story__item-title">
+                <span class="flh">F</span>reelancehunt.ru щупаю
+              </p>
+              <div class="text">
+                Постепенно понимаю, что веб-программисты на Workzilla не особо ценятся, поэтому регистрируюсь на freelancehunt.ru, замечая большую разообразность проектов относительно воркзилы. Делаю несколько заявок и спустя пару дней приходит уведомление об утверждении меня как исполнителя в первом проекте на 4к руб, который успешно выполнил в течение 2-4 дней.
+              </div>
+            </div>
+          </div>
+          <div class="story__item">
+            <p class="year">
+              2021
+            </p>
+            <div class="content">
+              <p class="story__item-title">
+                <span class="flh">F</span>reelancehunt.ru
+              </p>
+              <div class="text">
+                Углубляюсь в разработку на Wordpress и достигаю топ 100 по категории веб-разработки. Освоившись на FLH, продаю аккаунт на воркзиле за 5к руб, причем с отрицательным отзывом, который был единственным из всех бирж ^-^
+                <br><a href="https://freelancehunt.com/freelancer/ilqa.html" target="_blank">Мой аккаунт</a> на freelancehunt.ru
+              </div>
+            </div>
+          </div>
+          <div class="story__item">
+            <p class="year">
+              2022
+            </p>
+            <div class="content">
+              <p class="story__item-title">
+                <span class="freelance">F</span>reelance.ru
+              </p>
+              <div class="text">
+                Админы биржи freelancehunt.ru приходят к решению убрать возможность пользователям из России делать заявки на проекты. Потестив несколько бирж, основной остается freelance.ru
+                <br>Используя свои скилы убеждения по переписке и ссылаясь на аккаунт FLH нахожу и очень скоро выполняю первый проект на 10к руб ^-^
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- popup:story /-->
+
+  <!-- popup:form -->
+  <div class="popup w-form" id="form">
+    <div class="popup__bg close"></div>
+    <div class="popup__wrap">
+      <div class="popup__inner">
+        <div class="popup__hat">
+          <p class="popup__title">
+            Ближе к делу
+          </p>
+          <button class="popup__close close" type="button"><img src="./assets/svg/close.svg" alt=""></button>
+        </div>
+        <div class="popup__content">
+          <form action="#" method="post">
+            <p class="form__title">
+              Заполните самую удобную форму в мире!
+              <br>Я свяжусь с Вами в течение 2-х дней.
+            </p>
+            <label class="label_name">
+              <input type="text" class="input-style" name="name" placeholder="Ваше имя*" required>
+            </label>
+            
+            <label class="label_messenger">
+              Выберите мессенджер*:
+              <button class="select s-input" data-select_input_result="#popup-form-select-messenger-result" type="button">
+                <span class="choised">
+                  <span class="choised-content"></span>
+                  <span class="choised-arrow"><img src="./assets/svg/arrow_mini.svg" alt=""></span>
+                </span>
+                <span class="list">
+                  <span class="item" data-item="Логин от Телеграм*">
+                    <img src="./assets/svg/telegram.svg" alt="">Телеграм
+                  </span>
+                  <span class="item" data-item="Телефон WhatsApp*">
+                    <img src="./assets/svg/whatsapp.svg" alt="">WhatsApp
+                  </span>
+                  <span class="item" data-item="Телефон Viber*">
+                    <img src="./assets/svg/viber.svg" alt="">Viber
+                  </span>
+                </span>
+              </button>
+              <input type="hidden" name="messenger" value="">
+            </label>
+            <label class="label_login">
+              <input class="input-style" id="popup-form-select-messenger-result" type="text" name="login" required>
+            </label>
+            <label class="label_file input-style">
+              Техническое задание
+              <input type="file" name="file">
+            </label>
+            <div class="bottom">
+              <video src="./assets/video/diamond_skeleton.mp4" autoplay muted loop></video>
+              <button class="btn-big">
+                Отправить
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- popup:form /-->
+
+  <!-- popup:recall -->
+  <div class="popup w-form" id="recall">
+    <div class="popup__bg close"></div>
+    <div class="popup__wrap">
+      <div class="popup__inner">
+        <div class="popup__hat">
+          <p class="popup__title">
+            Перезвонить
+          </p>
+          <button class="popup__close close" type="button"><img src="./assets/svg/close.svg" alt=""></button>
+        </div>
+        <div class="popup__content">
+          <form action="#" method="post">
+            <p class="form__title">
+              Заполните самую удобную форму в мире!
+              <br>Я свяжусь с Вами в течение 2-х дней.
+            </p>
+
+            <label class="label_name">
+              <input type="text" class="input-style" name="name" placeholder="Ваше имя*" required>
+            </label>
+
+            <label class="label_phone">
+              <input type="tel" class="input-style" name="phone" placeholder="Ваш телефон*" required>
+            </label>
+
+            <label class="label_message">
+              <textarea class="input-style" name="message" placeholder="Сообщение"></textarea>
+            </label>
+            
+            <div class="bottom">
+              <video src="./assets/video/diamond_skeleton.mp4 " autoplay muted loop></video>
+              <button class="btn-big">
+                Отправить
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- popup:recall /-->
+
+  <!-- popup:reasons -->
+  <div class="popup" id="reasons">
+    <div class="popup__bg close"></div>
+    <div class="popup__wrap">
+      <div class="popup__inner">
+        <div class="popup__hat">
+          <p class="popup__title">
+            Да.
+          </p>
+          <button class="popup__close close" type="button"><img src="./assets/svg/close.svg" alt=""></button>
+        </div>
+        <div class="popup__content">
+          <p class="popup__content-title">
+            Топ 5 причин не работать со мной:
+          </p>
+          <ol>
+            <li>
+              1. Я делаю все по ТЗ, а подарочки клиентам зависят от настроения(
+            </li>
+            <li>
+              2. Я трачу свое и клиента время на уточнение моментов из ТЗ(
+            </li>
+            <li>
+              3. Я иногда использую бытовой стиль общения(
+            </li>
+            <li>
+              4. Я могу отказаться от Вашего проекта в пользу более "вкусного"(
+            </li>
+            <li>
+              5. Я кажется слишком позитивный :(
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- popup:reasons /-->
+
+  <!-- work_single content -->
+  <div id="work_single_content" class="container">
+    <div class="work_single-close">
+      закрыть <img src="./assets/svg/close.svg" alt="">
+    </div>
+    <div class="work_single-img">
+      <img src="./assets/img/work.png" alt="">
+    </div>
+    <div class="work_single-content">
+      <h3 class="title">
+        Разработка плагина "Пулеметы RG405"
+        <video src="./assets/video/flame.mp4" autoplay muted loop></video>
+      </h3>
+      <p>Было сложно но я подрочил. Было сложно но я подрочил. Было сложно но я подрочил. Было сложно но я подрочил. Было сложно но я подрочил. Было сложно но я подрочил. Было сложно но я подрочил. Было сложно но я подрочил. Было сложно но я подрочил.</p>
+    </div>
+    <div class="work_single-bottom">
+      <div class="side">
+        <p class="work_single-time">
+          Срок: 3 дня
+        </p>
+        <p class="work_single-pride">
+          Гордость: 6 / 10
+        </p>
+      </div>
+      <a class="btn-border-bg" href="#">
+        Ресурс
+      </a>
+    </div>
+  </div>
+  <!-- work_single content -->
+
+  <!-- scripts -->
+  <script src="./assets/js/jquery-3.6.0.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <!-- scripts /-->
+
+</body>
+</html>
