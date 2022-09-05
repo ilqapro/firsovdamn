@@ -14,7 +14,7 @@ $(function() {
     setTimeout(function() {
       $('#preloader').fadeOut(1000)
       $('body').removeClass('loading')
-    }, 000)
+    }, 1000)
 
     
     // gift in random position
