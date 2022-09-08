@@ -79,12 +79,14 @@ $(function() {
   
   // open main popups
   $('[data-popup_open]').on('click', function() {
+    $('body').addClass('overflowY-hidden')
     $('.popup#' + $(this).data('popup_open')).fadeIn(300)
   })
 
   // close popup
   $('.close').on('click', function() {
     $(this).closest('.popup').fadeOut(300)
+    $('body').removeClass('overflowY-hidden')
   })
 
   // brain item
