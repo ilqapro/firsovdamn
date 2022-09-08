@@ -128,7 +128,7 @@ $(function() {
   }).first().trigger('click')
 
   var workItemDisable = false;
-  $('.works__item').on('mousemove', function(e) {
+  $('.works__item').on('mousemove touchmove', function(e) {
     let
       itemOffset = $(this).offset(),
       halfWidth = $(this).width() / 2,
@@ -144,7 +144,7 @@ $(function() {
       '-moz-transform': cssTransformProperty,
       '-webkit-transform': cssTransformProperty
     })
-  }).on('mouseleave', function() {
+  }).on('mouseleave touchend', function() {
     let $this = $(this);
     setTimeout(function() {
       $this.find('.inner').prop('style', false)
