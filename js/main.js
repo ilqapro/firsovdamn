@@ -14,7 +14,7 @@ $(function() {
     setTimeout(function() {
       $('#preloader').fadeOut(1000)
       $('body').removeClass('loading')
-    }, 000)
+    }, 1000)
 
     
     // gift in random position
@@ -23,7 +23,7 @@ $(function() {
         top: (25 + getRandomInt(50)) + 'vh',
         left: (25 + getRandomInt(50)) + 'vw',
       })
-    }, 0000)
+    }, 10000)
   })
 
   var headerHeight = $('#header').outerHeight();
