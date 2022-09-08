@@ -28,18 +28,10 @@ $(function() {
 
   // trigger on brain item
   let brainItemClicked = false;
-  let worksItemClicked = false;
   $(window).scroll(function() {
     if( $(this).scrollTop() > $('#brain').offset().top - headerHeight && ! brainItemClicked ) {
       $('.brain__skills-item').first().trigger('click')
       brainItemClicked = true;
-    }
-
-    if( isMobile ) {
-      if( $(this).scrollTop() > $('#works').offset().top - headerHeight && ! worksItemClicked ) {
-        $('.works__item').first().trigger('click')
-        worksItemClicked = true;
-      }
     }
   })
 
