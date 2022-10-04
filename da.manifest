@@ -40,3 +40,6 @@ assets/fonts/rubik-v21-latin_cyrillic-regular.woff2
 
 NETWORK:
 *
+
+FALLBACK:
+index.html error.html
