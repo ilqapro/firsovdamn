@@ -7,4 +7,4 @@ NETWORK:
 index.html
 
 FALLBACK:
-index.html error.html
+error.html index.html
