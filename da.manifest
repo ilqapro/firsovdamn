@@ -2,6 +2,7 @@ CACHE MANIFEST
 
 # pages
 index.html
+error.html
 
 # media
 assets/svg/logo.svg
