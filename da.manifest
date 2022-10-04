@@ -42,4 +42,4 @@ NETWORK:
 *
 
 FALLBACK:
-index.html error.html
+/ error.html
