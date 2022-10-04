@@ -1,7 +1,10 @@
 CACHE MANIFEST
 
+CACHE:
+error.html
+
 NETWORK:
-*
+/
 
 FALLBACK:
-error.html
+/ error.html
