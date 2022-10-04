@@ -4,4 +4,4 @@ CACHE:
 error.html
 
 FALLBACK:
-error.html index.html
+/ error.html
