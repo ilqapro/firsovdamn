@@ -1,43 +1,7 @@
 CACHE MANIFEST
 
 # pages
-index.html
 error.html
-
-# media
-assets/svg/logo.svg
-assets/video/face.mp4
-assets/svg/look_at_this.svg
-assets/img/me.png
-assets/svg/telegram.svg
-assets/svg/viber.svg
-assets/svg/whatsapp.svg
-assets/svg/gmail.svg
-assets/img/emoji_01.png
-assets/img/emoji_02.png
-assets/img/emoji_03.png
-assets/img/emoji_04.png
-assets/img/me.png
-assets/svg/gift.svg
-assets/video/logo.mp4
-
-# css
-assets/css/normalize.css
-assets/css/main.css
-
-# fonts
-assets/fonts/montserrat-v25-latin_cyrillic-700.woff
-assets/fonts/montserrat-v25-latin_cyrillic-700.woff2
-assets/fonts/montserrat-v25-latin_cyrillic-800.woff
-assets/fonts/montserrat-v25-latin_cyrillic-800.woff2
-assets/fonts/rubik-v21-latin_cyrillic-500.woff
-assets/fonts/rubik-v21-latin_cyrillic-500.woff2
-assets/fonts/rubik-v21-latin_cyrillic-600.woff
-assets/fonts/rubik-v21-latin_cyrillic-600.woff2
-assets/fonts/rubik-v21-latin_cyrillic-700.woff
-assets/fonts/rubik-v21-latin_cyrillic-700.woff2
-assets/fonts/rubik-v21-latin_cyrillic-regular.woff
-assets/fonts/rubik-v21-latin_cyrillic-regular.woff2
 
 NETWORK:
 *
