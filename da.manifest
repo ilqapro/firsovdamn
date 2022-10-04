@@ -4,7 +4,7 @@ CACHE:
 error.html
 
 NETWORK:
-/
+index.html
 
 FALLBACK:
-/ error.html
+index.html error.html
