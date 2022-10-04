@@ -1,10 +1,7 @@
 CACHE MANIFEST
 
-# pages
-error.html
-
 NETWORK:
 *
 
 FALLBACK:
-/ error.html
+error.html
